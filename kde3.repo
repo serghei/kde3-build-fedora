@@ -1,0 +1,10 @@
+[kde3]
+name=Fedora $releasever - $basearch - KDE3
+failovermethod=priority
+baseurl=http://kde3.wifimag.ro/fedora/$releasever/
+enabled=1
+gpgcheck=0
+metadata_expire=6h
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+#skip_if_unavailable=False
+
